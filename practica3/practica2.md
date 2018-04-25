@@ -1,5 +1,5 @@
 
-#Práctica 3: Balanceo de carga.
+# Práctica 3: Balanceo de carga.
 
 
 1. **Configuración de nginx en la nueva máquina que hará de balancecador**
