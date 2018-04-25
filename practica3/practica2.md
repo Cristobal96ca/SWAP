@@ -65,7 +65,7 @@ Desde la nueva máquina hacemos dos peticiones a la IP del balanceador:
 
 Como resultado tenemos, alternativamente, respuestas de ambas máquinas finales:
 
-![nginx index](./imagenes/ngbalanceo.PNG)
+![nginx index](./images/ngbalanceo.PNG)
 
 2. **Configuración de haproxy en nuestra máquina balanceadora**
 
@@ -112,6 +112,8 @@ En las m1 y m2 y en el balanceador ejecutamos lo siguiente para monitorizar la c
 ```bash
 	htop
 ```
+
+A continuación la ejecución del benchmark, donde en la esquina superior izquierda vemos la máquina 1, a su derecha la m2, abajo a la izquierda la m3 y abajo a la derecha la m4, donde generamos la carga.
 
 NGINX:
 
