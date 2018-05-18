@@ -56,7 +56,7 @@ En la máquina 2 ejecutamos el siguiente comando scp para copiar el archivo .SQL
 
 Ejecutamos la siguiente secuencia de contactos para importar la BD copiada:
 
-![nginx BDnueva](./imagenes/BDnueva.PNG)
+![nginx BDnueva](./imagenes/DBnueva.PNG)
 
 
 3. **Replicación   de   BD   mediante   una   configuración maestro-esclavo**
