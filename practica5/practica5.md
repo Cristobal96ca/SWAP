@@ -23,7 +23,7 @@ Una vez dentro del monitor MySQL, creamos la base de datos:
 Seleccionamos la BD e introducimos datos:
 
 
-![nginx DBcreada](./imagenes/DBcreada.PNG)
+![nginx DBcreada](./imagenes/BDcreada.PNG)
 
 
 
@@ -140,7 +140,7 @@ Para probar de forma definitiva que todo está correcto, vamos al maestro e intr
 
 Estado de la base de datos (maestro) y posterior insert:
 
-![nginx replica1](./imagenes/replicacioonm1.PNG)
+![nginx replica1](./imagenes/replicacionm1.PNG)
 
 En la máquina esclava comprobamos que los cambios son efectivos (primer select antes del insert que hemos hecho en el maestro, segundo select después del insert):
 
@@ -194,7 +194,7 @@ Comprobamos que si cambiamos la base de datos desde la máquina que era escalva 
 
 Estado de la base de datos de la antigua esclava y posterior insert:
 
-![nginx replica22](./imagenes/replicacioon2m2.PNG)
+![nginx replica22](./imagenes/replicacion2m2.PNG)
 
 En la antigua máquina maestra comprobamos que los cambios son efectivos (primer select antes del insert que hemos hecho en el maestro, segundo select después del insert):
 
