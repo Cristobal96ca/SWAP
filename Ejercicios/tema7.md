@@ -14,6 +14,6 @@
 2. **Buscar información sobre los sistemas de ficheros en red más utilizados en la actualidad y comparar sus características**
 
 
-UNIX: NFS, SAMBA
-Windows: SMB
-Apple: AFP, SMB2
+UNIX: NFS, SAMBA.
+Windows: SMB.
+Apple: AFP, SMB2.
